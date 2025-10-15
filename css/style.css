@@ -68,3 +68,35 @@ a {
   background: var(--sacramento-state-green);
   color: var(--white);
 }
+
+.header {
+  background: var(--midnight-green);
+  height: 100vh;
+  padding: 73px 0 0 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  column-gap: 80px;
+  align-items: center;
+}
+
+.header__lists {
+  display: flex;
+  column-gap: 40px;
+}
+
+.header__link {
+  color: var(--white);
+  font-family: var(--livvic);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}
